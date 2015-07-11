@@ -28,3 +28,7 @@ de:
       list: 'Alle Links'
       name: 'Name'
       url: 'URL'
+      created: 'Link erstellt.'
+      updated: 'Link aktualisiert.'
+      destroyed: 'Link gelöscht.'
+      edit: 'Link bearbeiten'
