@@ -1,7 +1,7 @@
 de:
   devise:
     log_in: 'Login'
-    sign_up: 'Anmelden'
+    sign_up: 'Registrieren'
     edit: 'Bearbeiten'
     update: 'Aktualisieren'
     back: 'Zurück'
