@@ -21,6 +21,8 @@ en:
 
   messages:
     confirm: 'Are you sure?'
+    delete:
+      link: 'Are you sure, you want to delete link "%{name}"?'
 
   models:
     link:
@@ -45,3 +47,15 @@ en:
         password_confirmation: 'Passwort confirmation'
         current_password: 'Current Password'
         remember_me: 'Remember me'
+    errors:
+      models:
+        link:
+          attributes:
+            url:
+              invalid: 'Invalid URL. Please enter a valid URL.'
+              blank: 'Blank URL. Please enter a valid URL.'
+
+  helpers:
+    submit:
+      link:
+        create: "add %{model}"

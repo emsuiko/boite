@@ -19,7 +19,7 @@
         <% if user_signed_in? %>
           <td><%= link_to content_tag(:span, '', :class => 'glyphicon glyphicon-search'), link %></td>
           <td><%= link_to content_tag(:span, '', :class => 'glyphicon glyphicon-pencil'), edit_link_path(link) %></td>
-          <td><%= link_to content_tag(:span, '', :class => 'glyphicon glyphicon-remove'), link, method: :delete, data: { confirm: t('messages.confirm') } %></td>
+          <td><%= link_to content_tag(:span, '', :class => 'glyphicon glyphicon-remove'), link, method: :delete, data: { confirm: confirm_link_deletion(link) } %></td>
         <% end %>
       </tr>
     <% end %>
