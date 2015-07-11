@@ -1,9 +1,41 @@
 body {
-  margin: 50px;
-  margin-top: 70px;
   background-color: #9ac37b;
 }
 
 main {
   background-color: transparent;
+}
+
+p.help-block {
+  font-size: 10px;
+}
+
+.jumbotron {
+  font-size: 12px;
+
+  margin: 50px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #e0f0d5;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer img {
+  float: left;
+  margin: 0.5em;
 }
