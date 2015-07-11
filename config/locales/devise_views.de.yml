@@ -1,0 +1,41 @@
+de:
+  devise:
+    log_in: 'Login'
+    sign_up: 'Anmelden'
+    edit: 'Bearbeiten'
+    update: 'Aktualisieren'
+    back: 'Zurück'
+    resend_confirmation_instructions: 'Bestätigung erneut senden'
+    missing_confirmation_instructions: 'Bestätigung nicht erhalten?'
+    missing_unlock_instructions: 'Informationen zum Entsperren nicht erhalten?'
+    omniauth: 'Anmelden als'
+    reset_password_instructions: 'Passwort zurücksetzen'
+    password:
+      forgotten: 'Passwort vergessen?'
+      change:
+        your: 'Passwort ändern'
+        my: 'Passwort ändern'
+        ignore: 'Wenn du dein Passwort nicht ändern willst, ignoriere diese Mail.'
+        info: 'Dein Passwort wird sich nicht ändern, bis du dem Link folgst und ein neues erstellst.'
+      new: 'Neues Passwort'
+      confirm: 'Bestätigen'
+      min_char: 'Zeichen mindestens'
+      reset:
+        intro: 'Jemand hat einen Link angefordert, um dein Passwort zurück zu setzen.'
+      hint_blank: 'Lass dieses Feld leer, wenn du dein Passwort nicht ändern willst.'
+      needed: 'Zum Bestätigen der Änderungen bitte Passwort eingeben'
+    confirm:
+      intro: 'E-Mail-Adresse bestätigen:'
+      account: 'Account bestätigen'
+    salutation:
+      welcome: 'Willkommen'
+      hello: 'Hallo'
+    locked:
+      info: 'Dein Account wurde gesperrt, da das Passwort zu oft falsch eingegeben wurde.'
+    unlock:
+      intro: 'Account entsperren:'
+      account: 'Account entsperren'
+      instructions: 'Anweisungen zum Entsperren schicken'
+    cancel:
+      account: 'Account löschen'
+      confirm: 'Bist du dir sicher?'

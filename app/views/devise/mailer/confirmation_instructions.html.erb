@@ -1,0 +1,5 @@
+<p><%= "#{t('devise.salutation.welcome')} #{@email}" %>!</p>
+
+<p><%= t('devise.confirm.intro') %></p>
+
+<p><%= link_to "#{t('devise.confirm.account')}", confirmation_url(@resource, confirmation_token: @token) %></p>
