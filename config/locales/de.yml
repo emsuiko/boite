@@ -1,0 +1,30 @@
+de:
+  hello: 'Hallo Welt'
+
+  nav:
+    back: 'Zurück'
+    about: 'Über Boîte'
+    links: 'Links'
+    home: 'Startseite'
+
+  devise:
+    logged_in: 'Eingeloggt als '
+    logout: 'Logout'
+    login: 'Login'
+    sign_up: 'Anmelden'
+    edit_profile: 'Profil bearbeiten'
+
+  crud:
+    show: 'Anzeigen'
+    new: 'Neu'
+    edit: 'Bearbeiten'
+
+  messages:
+    confirm: 'Bist du sicher?'
+
+  models:
+    link:
+      new: 'Neuer Link'
+      list: 'Alle Links'
+      name: 'Name'
+      url: 'URL'
