@@ -1,1 +1,6 @@
-<h3>Welcome to Boîte</h3>
+<h3><%= t('app.welcome') %></h3>
+
+<% unless @links.blank? %>
+  <h4><%= t('app.link_list') %></h4>
+  <%= render 'links/list' %>
+<% end %>

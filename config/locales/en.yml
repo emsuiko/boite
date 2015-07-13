@@ -1,6 +1,10 @@
 en:
   hello: 'hello world'
 
+  app:
+    welcome: 'Welcome to Boîte!'
+    link_list: 'Last Links:'
+
   nav:
     back: 'Back'
     about: 'About Boîte'

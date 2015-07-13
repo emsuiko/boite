@@ -1,0 +1,7 @@
+<ul class='list-group'>
+  <% @links.each do |link| %>
+    <li class='list-group-item'>
+      <%= link_to link.name, link.url %>
+    </li>
+  <% end %>
+</ul>

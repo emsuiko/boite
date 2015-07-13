@@ -1,0 +1,25 @@
+<table class='table table-striped'>
+  <thead>
+    <tr>
+      <th><%= t('activerecord.attributes.link.name') %></th>
+      <th><%= t('activerecord.attributes.link.url') %></th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @links.each do |link| %>
+      <tr>
+        <td><%= link.name %></td>
+        <td><%= link_to link.url, link.url %></td>
+        <td><%= link_to content_tag(:span, '', :class => 'glyphicon glyphicon-search'), link %></td>
+        <td><%= link_to content_tag(:span, '', :class => 'glyphicon glyphicon-pencil'), edit_link_path(link) %></td>
+        <td><%= link_to content_tag(:span, '', :class => 'glyphicon glyphicon-remove'), link, method: :delete, data: { confirm: confirm_link_deletion(link) } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to t('models.link.new'), new_link_path %>

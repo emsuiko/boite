@@ -5,7 +5,7 @@
 
 <p>
   <strong><%= t('models.link.url') %>:</strong>
-  <%= @link.url %>
+  <%= link_to link.url, link.url %>
 </p>
 
 <%= link_to t('crud.edit'), edit_link_path(@link) %> |

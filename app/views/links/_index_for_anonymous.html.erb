@@ -1,0 +1,17 @@
+<table class='table table-striped'>
+  <thead>
+    <tr>
+      <th><%= t('activerecord.attributes.link.name') %></th>
+      <th><%= t('activerecord.attributes.link.url') %></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @links.each do |link| %>
+      <tr>
+        <td><%= link.name %></td>
+        <td><%= link_to link.url, link.url %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
