@@ -59,6 +59,11 @@ de:
               invalid: 'Ungültige URL. Bitte gebe eine gültige URL ein.'
               blank: 'Leere URL. Bitte gebe eine gültige URL ein.'
 
+        user:
+          attributes:
+            password:
+              too_short: 'Das Password ist zu kurz.'
+
   helpers:
     submit:
       link:

@@ -38,4 +38,5 @@ de:
       instructions: 'Anweisungen zum Entsperren schicken'
     cancel:
       account: 'Account löschen'
-      confirm: 'Bist du dir sicher?'
+      confirm: 'Bist du dir sicher, dass du deinen Account bei Boîte löschen willst?'
+    unhappy: 'Nicht zufrieden?'
