@@ -1,7 +1,7 @@
 FactoryGirl.define do
   factory :link do
-    name "MyString"
-url "MyString"
+    name { Faker::Lorem.word }
+    url { Faker::Internet.url }
   end
 
 end

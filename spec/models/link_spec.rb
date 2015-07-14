@@ -1,5 +1,11 @@
 require 'rails_helper'
 
 RSpec.describe Link, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it 'has a valid factory' do
+    expect(build(:link)).to be_valid
+  end
+
+  it 'is invalid without url' do
+    expect(build(:link, url: nil)).to_not be_valid
+  end
 end
