@@ -23,6 +23,10 @@ p.help-block {
   margin-bottom: 70px;
 }
 
+.jumbotron p {
+  font-size: 14px;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
